@@ -1,6 +1,6 @@
 {
   "name": "Wessbas",
-  "tagline": "Homepage of WESSBAS Project",
+  "tagline": "Homepage of the WESSBAS Project",
   "body": "# WESSBAS: Extraction of Probabilistic Workload Specifications for Load Testing and Performance Prediction\r\n\r\n## A Model-Driven Approach for Session-Based Application Systems\r\n\r\nWESSBAS presents an approach that aims to automate the extraction and transformation of workload specifications for load testing and model-based performance prediction of session-based application systems. The approach (WESSBAS) comprises three main components. First, a system and tool agnostic domain-specific language (DSL) allows the layered modeling of workload specifications of session-based systems. Second, instances of this DSL are automatically extracted from recorded session logs of production systems. Third, these instances are transformed into executable workload specifications of load generation tools and model-based performance evaluation tools. We present transformations to the common load testing tool Apache JMeter and to the Palladio Component Model.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
