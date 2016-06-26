@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Wessbas by Wessbas</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Wessbas</h1>
+        <h2>Homepage of the WESSBAS Project</h2>
+        <a href="https://github.com/Wessbas" class="button"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="wessbas-extraction-of-probabilistic-workload-specifications-for-load-testing-and-performance-prediction" class="anchor" href="#wessbas-extraction-of-probabilistic-workload-specifications-for-load-testing-and-performance-prediction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>Supplementary Material for VALUETOOLS 14 Paper</a></h1>
+
+<p>
+This page provides supplementary material for the paper <em>Automatic Extraction of Probabilistic Workload Specifications for Load Testing Session-Based Application Systems</em>, which introduces the WESSBAS approach. 
+</p>
+<p>
+van Hoorn, A., Vögele, C., Schulz, E., Hasselbring, W. und Krcmar, H.: Automatic Extraction of Probabilistic Workload Specifications for Load Testing Session-Based Application Systems [Paper] In: 8th International Conference on Performance Evaluation Methodologies and Tools (<a class="missing wiki" href="/Markov4JMeter/trac/wiki/valuetools14/ValueTools" rel="nofollow">ValueTools?</a> 2014), December 9-11, 2014, Bratislava, Slovakia. <a class="ext-link" href="http://eprints.uni-kiel.de/25987/"><span class="icon">​</span>PDF</a>
+</p>
+<p>
+WESSBAS is an acronym for <em>Workload Extraction and Specification for Session-Based Application Systems</em>.
+</p>
+<p>
+Download supplementary material: <a class="ext-link" href="https://db.tt/c2vRqLmB"><span class="icon">​</span>valuetools14-supplementary.zip</a> (680 MB)
+</p>
+<h2 id="Contents">Contents</h2>
+<p>
+ 
+</p>
+<h2 id="Software">Software</h2>
+<p>
+The following WESSBAS programs are included in the directory <tt>software</tt>:
+</p>
+<ul><li><tt>jetty-actionServlet/</tt> --- Jetty Servlet container with the deployed ActionServlet (below)
+</li><li><tt>kieker-1.9-SPECjEnterprise/</tt> --- <a class="ext-link" href="http://kieker-monitoring.net"><span class="icon">​</span>Kieker</a> version 1.9, including a SPECjEnterprise-specific Servlet probe
+</li><li><tt>net.sf.markov4jmeter/</tt> --- <a class="ext-link" href="http://markov4jmeter.sf.net/"><span class="icon">​</span>Markov4JMeter</a> including extensions by think times
+</li><li><tt>net.sf.markov4jmeter.actionservlet/</tt> --- Application used in the evaluation to receive requests from the synthetic workload
+</li><li><tt>net.sf.markov4jmeter.behaviormodelextractor/</tt> --- WESSBAS User Behavior Model Extractor
+</li><li><tt>net.sf.markov4jmeter.m4jdsl/</tt> --- WESSBAS DSL
+</li><li><tt>net.sf.markov4jmeter.m4jdslmodelgenerator/</tt> --- WESSBAS Model Extractor
+</li><li><tt>net.sf.markov4jmeter.sessionGenerator/</tt> --- Utility program to create synthetic session logs
+</li><li><tt>net.sf.markov4jmeter.testplangenerator/</tt> --- WESSBAS Test Plan Generator
+</li><li><tt>sessionExtraction/</tt> --- Generates session log from a Kieker monitoring log; analysis program for session logs
+</li><li><tt>Weka/</tt> --- Weka data mining tool (sources)
+</li><li><tt>wesba-workflow/</tt> --- Utility scripts to connect inputs and outputs of the WESSBAS tools
+</li></ul><h2 id="EvaluationResults">Evaluation Results</h2>
+<p>
+The evaluation results mentioned in the paper (including request and session logs; extracted WESSBAS DSL instances and JMeter test plans; and analysis scripts and results) are included in the directory <tt>evaluation/20140826-SPECjEnterprise/</tt>.
+</p>
+        </section>
+
+        <aside id="sidebar">
+		  <h3><a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h3>
+		  <br /><br /><br />
+		  <a href="http://pmw.fortiss.org"><img src="images/fortiss.png" alt="fortiss GmbH" title="fortiss GmbH" width="70%" height="70%" /></a>
+		  <br /><br /><br />
+		  <a href="http://www.uni-stuttgart.de/"><img src="images/logo-ustuttgart-140x29.png" alt="Universität Stuttgart" title="Universität Stuttgart" width="140" height="29" /></a>
+		  <br /><br /><br />		  
+		  <a href="http://www.uni-kiel.de/"><img src="images/Logos_Hochschulen_CAU.jpg" alt="Christian-Albrechts Universität zu Kiel" title="Christian-Albrechts Universität zu Kiel" width="70%" height="70%" /></a>
+		  <br /><br /><br />		  
+		  <a href="http://in.tum.de"><img src="images/Tum_logo.gif" alt="Technische Universität München" title="Technische Universität München" width="70%" height="70%" /></a>
+		  <br /><br /><br />
+		  <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>	  
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
